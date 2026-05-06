@@ -7,7 +7,7 @@ Spring Boot + SQLite 初始化示例，基于 Java 21 与 Maven。
 ## 技术栈
 - Java 21
 - Spring Boot 3
-- Spring Data JPA
+- MyBatis
 - SQLite
 - React 18 + TypeScript
 - Vite
@@ -16,7 +16,7 @@ Spring Boot + SQLite 初始化示例，基于 Java 21 与 Maven。
 - `controller`：View 层，仅负责 HTTP 协议处理
 - `viewmodel`：ViewModel 层，负责 DTO 与映射
 - `domain`：Domain 层，包含业务模型、服务、仓储抽象
-- `infrastructure`：Infrastructure 层，包含 SQLite 持久化实现与数据源初始化
+- `infrastructure`：Infrastructure 层，包含 MyBatis Mapper、SQLite 持久化适配与数据源初始化
 
 ## 启动方式
 1. 启动后端

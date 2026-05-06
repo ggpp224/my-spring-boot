@@ -8,7 +8,7 @@
 /Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/infrastructure/datasource/SqliteDataSourceInitializer.java
 /Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/infrastructure/entity/TodoEntity.java
 /Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/infrastructure/repository/SqliteTodoRepositoryAdapter.java
-/Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/infrastructure/repository/TodoJpaRepository.java
+/Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/infrastructure/repository/TodoMapper.java
 /Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/viewmodel/mapper/TodoViewModelMapper.java
 /Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/viewmodel/request/CreateTodoRequest.java
 /Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/viewmodel/response/TodoResponse.java

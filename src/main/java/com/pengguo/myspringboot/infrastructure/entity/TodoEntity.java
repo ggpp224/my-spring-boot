@@ -1,53 +1,57 @@
 // AI 生成 By Peng.Guo
 package com.pengguo.myspringboot.infrastructure.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 import java.time.Instant;
 
-@Entity
-@Table(name = "todos")
+/**
+ * 持久化模型（MyBatis），与领域模型 {@link com.pengguo.myspringboot.domain.model.TodoItem} 分离。
+ */
 public class TodoEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(nullable = false, length = 100)
     private String title;
-
-    @Column(nullable = false)
     private boolean done;
+    /** SQLite 中以 UNIX 纪元秒存储 */
+    private long createdAtEpochSeconds;
 
-    @Column(nullable = false, updatable = false)
-    private Instant createdAt;
-
-    protected TodoEntity() {
+    public TodoEntity() {
     }
 
     public TodoEntity(String title, boolean done, Instant createdAt) {
         this.title = title;
         this.done = done;
-        this.createdAt = createdAt;
+        this.createdAtEpochSeconds = createdAt.getEpochSecond();
     }
 
     public Long getId() {
         return id;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getTitle() {
         return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public boolean isDone() {
         return done;
     }
 
-    public Instant getCreatedAt() {
-        return createdAt;
+    public void setDone(boolean done) {
+        this.done = done;
+    }
+
+    public long getCreatedAtEpochSeconds() {
+        return createdAtEpochSeconds;
+    }
+
+    public void setCreatedAtEpochSeconds(long createdAtEpochSeconds) {
+        this.createdAtEpochSeconds = createdAtEpochSeconds;
     }
 }

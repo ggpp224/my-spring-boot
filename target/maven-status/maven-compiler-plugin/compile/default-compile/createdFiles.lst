@@ -1,7 +1,7 @@
 com/pengguo/myspringboot/MySpringBootApplication.class
 com/pengguo/myspringboot/infrastructure/datasource/SqliteDataSourceInitializer.class
+com/pengguo/myspringboot/infrastructure/repository/TodoMapper.class
 com/pengguo/myspringboot/viewmodel/response/TodoResponse.class
-com/pengguo/myspringboot/infrastructure/repository/TodoJpaRepository.class
 com/pengguo/myspringboot/viewmodel/request/CreateTodoRequest.class
 com/pengguo/myspringboot/infrastructure/config/WebCorsConfig.class
 com/pengguo/myspringboot/infrastructure/entity/TodoEntity.class

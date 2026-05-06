@@ -23,7 +23,13 @@ export function TodoPage() {
       <section className="card">
         <div className="headerRow">
           <h1>Todo Web</h1>
-          <a className="dbLink" href={sqliteWebUrl} target="_blank" rel="noreferrer">
+          <a
+            className="dbLink"
+            href={sqliteWebUrl}
+            target="_blank"
+            rel="noreferrer"
+            title="需先在项目根目录执行 ./scripts/sqlite-web.sh（默认监听 8081），否则会连接被拒绝"
+          >
             访问数据库
           </a>
         </div>
