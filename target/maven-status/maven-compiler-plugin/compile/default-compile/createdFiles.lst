@@ -3,6 +3,7 @@ com/pengguo/myspringboot/infrastructure/datasource/SqliteDataSourceInitializer.c
 com/pengguo/myspringboot/viewmodel/response/TodoResponse.class
 com/pengguo/myspringboot/infrastructure/repository/TodoJpaRepository.class
 com/pengguo/myspringboot/viewmodel/request/CreateTodoRequest.class
+com/pengguo/myspringboot/infrastructure/config/WebCorsConfig.class
 com/pengguo/myspringboot/infrastructure/entity/TodoEntity.class
 com/pengguo/myspringboot/controller/HealthController.class
 com/pengguo/myspringboot/domain/service/TodoService.class

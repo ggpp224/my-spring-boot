@@ -4,6 +4,7 @@
 /Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/domain/model/TodoItem.java
 /Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/domain/port/TodoRepositoryPort.java
 /Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/domain/service/TodoService.java
+/Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/infrastructure/config/WebCorsConfig.java
 /Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/infrastructure/datasource/SqliteDataSourceInitializer.java
 /Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/infrastructure/entity/TodoEntity.java
 /Users/guopeng/disk/test/my-spring-boot/src/main/java/com/pengguo/myspringboot/infrastructure/repository/SqliteTodoRepositoryAdapter.java

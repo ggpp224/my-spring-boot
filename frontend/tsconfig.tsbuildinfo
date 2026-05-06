@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/app/app.tsx","./src/domain/todoservice.ts","./src/infra/http/todoapidatasource.ts","./src/shared/types/todo.ts","./src/view/pages/todo/todopage.tsx","./src/viewmodel/usetodoviewmodel.ts"],"version":"5.9.3"}

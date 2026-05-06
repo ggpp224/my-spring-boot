@@ -1,0 +1,102 @@
+/* AI 生成 By Peng.Guo */
+:root {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 640px;
+  border-radius: 12px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.desc {
+  margin-top: 0;
+  color: #4b5563;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.dbLink {
+  display: inline-flex;
+  align-items: center;
+  height: 34px;
+  border-radius: 8px;
+  padding: 0 12px;
+  text-decoration: none;
+  background: #111827;
+  color: white;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  height: 38px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 0 10px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 0 14px;
+  background: #2563eb;
+  color: white;
+}
+
+button:disabled {
+  background: #9ca3af;
+}
+
+.error {
+  color: #dc2626;
+}
+
+.list {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.list small {
+  color: #6b7280;
+}
